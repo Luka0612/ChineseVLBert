@@ -61,4 +61,5 @@ VisualBERT 遵循 BERT 一样的流程，先进行预训练然后在相应的任
 作者最后在 VCR, VQA, REC (Referring expression comprehension) 三个任务上测试模型，该模型都取得了最佳或者与最佳相当的表现。
 
 ## 实现逻辑
+上述的paper都基本采用了COCO数据集，但中文领域很难找到能达到COCO规模的数据，因此打算将COCO的英文标注翻译为中文即可得到中文领域的数据集，会存在些翻译导致的偏差。
 
